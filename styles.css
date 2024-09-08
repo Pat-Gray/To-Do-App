@@ -1,0 +1,162 @@
+* {
+  display: border-box;
+  margin: 0%;
+  padding: 0;
+  background-color: #edf2ff;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.add-btn,
+.filter-btn,
+.submit,
+.close,
+.modify-btn,
+.delete,
+.confirm,
+.completed {
+  color: #343a40;
+  background-color: #edf2ff;
+  padding: 3%;
+  border-radius: 1rem;
+  border: 0;
+  font-weight: 700;
+}
+
+
+
+.add-btn:hover,
+.filter-btn:hover,
+.submit:hover,
+.close:hover,
+.modify-btn:hover,
+.delete:hover,
+.confirm:hover {
+  background-color: #f97316;
+  border: #ffc100 solid 2px;
+}
+
+.delete:hover {
+  background-color: #c40c0c;
+}
+
+.completed:hover {
+  background-color: #12b886;
+  
+}
+
+.complete {
+  background-color: #12b886;
+  border-radius: 1rem;
+}
+
+.delete {
+  background-color: #f97316;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 10px;
+}
+
+.modify-btn,
+.delete {
+  padding: 2%;
+  max-height: 100px;
+  align-self: center;
+}
+
+.add-btn{
+  font-size: 2rem;
+  padding: 1rem;
+  }
+
+.task-list-container {
+  margin: 1%;
+  border: #4c6ef5 solid 2px;
+  
+}
+
+table {
+  width: 100%; /* Spreads the table across the page */
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-title {
+  background-color: #364fc7;
+}
+
+.addtask-popup {
+  display: inline-block;
+  max-width: 35%;
+  line-height: 4;
+  display: none;
+  margin:1rem;
+  padding-top: 1rem;
+  padding: 1rem;
+  gap: 3%;
+  background-color: #364fc7;
+  border-radius: 1rem;
+  max-width: 30rem;
+margin: auto;
+}
+
+h2{
+  line-height: 1;
+}
+
+form,
+label,
+h2,
+input,
+textarea {
+  background-color: #364fc7;
+  padding: 2%;
+  color: #dbe4ff;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  border: #ffc100 3px solid;
+}
+
+.delete-confirm {
+  display: none;
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  top: 30%;
+  background-color: #ffc100;
+  border: #ffc100 solid 2px;
+  padding: 2%;
+  border-radius: 1rem;
+  z-index: 2;
+  line-height: 4;
+  text-align: center;
+}
+
+.confirm {
+  padding: 5%;
+}
+
+h4 {
+  background-color: #ffc100;
+  color: #c40c0c;
+}
+.confirm {
+  text-align: center;
+}
+
+.table-title {
+  text-align: center;
+  color: #ffc100;
+}
